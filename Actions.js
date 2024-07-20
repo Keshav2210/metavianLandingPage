@@ -1,4 +1,4 @@
-console.log("hello")
-function events(){
-    let name="Rahul";
-}
+// console.log("hello")
+// function events(){
+//     let name="Rahul";
+// }
