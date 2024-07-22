@@ -150,3 +150,7 @@ footer {
     color: white;
     border-radius: 0 5px 5px 0;
 }
+
+.hover-item:hover {
+    color: #a3cd39;
+}
