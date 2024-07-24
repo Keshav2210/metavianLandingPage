@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function() {
             loadContent(this.id);
         });
     });
-
+    
     function loadContent(section) {
         switch(section) {
             case 'events':
