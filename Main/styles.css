@@ -30,12 +30,14 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #f1f1f1;
+    background-color: #a8a5a5;
   }
   
   .logo img {
-    height: 40px;
-  }
+    margin-left: 10px;
+    height: 25px;
+    margin-right: 10px;
+}
   
   nav ul {
     list-style: none;
@@ -73,7 +75,9 @@ body {
   
   .sidebar {
     width: 20%;
-    margin-right: 20px;
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
   }
   
   .sidebar h3 {
@@ -127,21 +131,22 @@ body {
     display: flex;
     justify-content: space-around;
     padding: 20px;
-    background-color: #f1f1f1;
+    background-color: #ded8d8;
   }
-  
   .footer-section {
-    width: 30%;
+    width: 60%;
   }
   
   .footer-section h3 {
-    margin-top: 0;
+    margin-top: 15px;
+    margin-left: 60px;
   }
   
   .footer-section address,
   .footer-section ul {
-    margin: 0;
-    padding: 0;
+    margin: 15px;
+    padding: 0px;
+    margin-left: 59px;
   }
   
   .footer-section ul {
