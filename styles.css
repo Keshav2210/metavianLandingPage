@@ -200,3 +200,15 @@ footer {
 .footer-logo {
   width: 100%;
 }
+
+.Privacy_footer{
+  display: flex;
+  height: 1.8rem;
+  width: 100vw;
+  background-color: #353333;
+  gap: 1rem;
+  padding: 1rem;
+}
+#end_section{
+  margin: 0 0 0 12rem;
+}

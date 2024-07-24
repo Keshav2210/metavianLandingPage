@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
     
-    function loadContent(section) {
+    function loadContent(section){
         switch(section) {
             case 'events':
                 contentSection.innerHTML = `
