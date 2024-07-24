@@ -6,25 +6,35 @@ body {
 }
 
 .image-grid {
+  display: grid;
+    background-color: whitesmoke;
+    padding: 50px;
+    margin: 30px 0;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0px;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+#image-grid-id{
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
   justify-content: center;
   background-color: whitesmoke;
   padding: 20px;
-  margin: 20px 0;
+  margin: 20px 0;
 }
 
 .image-box {
-  width: 30%;
-  padding: 10px;
+  width: 35%;
+  padding: 0px;
   background-color: white;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
 
 .image-box img {
-  width: 100%;
+  width: 150%;
   height: auto;
   transition: transform 0.4s ease-in-out;
 }
@@ -42,6 +52,7 @@ header {
   width: 93%;
   margin: 15px auto;
   border-radius: 1rem;
+  height: 45px;
 }
 
 .header-logo img {
@@ -69,13 +80,13 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: #333;
+  color: #fff;
   padding: 5px 10px;
 }
 
 nav ul li a.book-meeting {
   background-color: #a3cd39;
-  color: white;
+  color: black;
   border-radius: 5px;
 }
 
@@ -115,7 +126,7 @@ main {
 }
 
 .content {
-  width: 80%;
+  width: 100%;
 }
 
 .gallery {
@@ -151,7 +162,7 @@ footer {
 }
 
 .footer-section {
-  width: 100%;
+  width: 150%;
 }
 
 .footer-section h3 {
@@ -205,7 +216,7 @@ footer {
   display: flex;
   height: 1.8rem;
   width: 100vw;
-  background-color: #353333;
+  background-color: #c3c0c0;
   gap: 1rem;
   padding: 1rem;
 }
